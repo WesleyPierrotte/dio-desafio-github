@@ -1,0 +1,80 @@
+Iniciar o repositorio do git
+
+- git init
+
+
+Para mover arquivo
+
+- git add
+
+Para commit utilize
+
+- git commit
+ ( use sempre com comentario)
+
+ git commit -m "commit inicial"
+
+
+
+ver pasta oculta 
+
+Ls -a
+
+toda vez que cria uma nova versão no git, se faz necessário iniciar o autor
+
+como os comandos
+
+
+git config --global user.email "wesley_perrotte@yahoo.com.br
+
+$ git config --global user.name WesleyPierrotte
+
+
+ver status dos arquivos
+
+git status
+
+
+comando para mover arquivos
+
+mv strogonoff.md.txt ./receitas
+
+
+Trás todas as configurações do git em sua maquina
+
+$ git config --list
+
+Alterar  configurações do git
+
+Git config --global --unset user.email
+
+Git config --global user.email "coloque o e-mail"
+
+
+Apontar o repositorio local para o github
+
+git remote add origin https://github.com/WesleyPierrotte/livro-receitas.git
+
+git remote -v listar a lista de repositorios
+
+Git push origin master (empurra o repositorio para o github)
+
+
+Para puxar os arquivos, utilize o comando
+
+Git pull origin master
+
+
+
+Copiando um repositorio
+
+git clone -> cole a url.
+
+
+
+
+
+
+
+
+

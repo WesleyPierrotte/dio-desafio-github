@@ -1,0 +1,18 @@
+openssl sha1 nome do arquivo.extensão = identifica que o arquivo
+sofreu modificação
+
+
+
+
+f291995a82f4a98271d6e848ecbb180e93b71c9f
+a68fc3d0066a04457bed256ef58f1ca4cc0d58ea
+
+
+tipos de objetos de versionamento do git
+
+Blobs = bloco básico de composição
+trees = armazena todos os blobs e monta todas as estruturas dos arquivos
+commits = objeto que junta tudo arvore, blobs, autor, mensagem
+
+
+

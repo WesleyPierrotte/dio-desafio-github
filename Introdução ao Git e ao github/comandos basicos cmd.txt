@@ -1,0 +1,26 @@
+Comand line interface 
+
+Comandos basicos git:
+
+
+Windows > cd, dir, mkdir, del / rmdir
+
+
+listar = Dir
+
+navegar pasta = cd (exemplo: cd Windows ) para voltar (cd..)
+
+limpar o terminal = cls
+
+criar pasta = mkdir
+
+
+deletar arquivo = del nome da pasta ( vai deletar todos os arquivos da pasta)
+
+deletar a pasta = rmdir nome da pasta
+
+o meu token é : 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
+
+
+
+

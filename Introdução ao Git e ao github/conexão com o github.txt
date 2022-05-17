@@ -1,0 +1,40 @@
+chave ssh
+
+acesse o site do github >> vai em settings >>
+SSH and GPC Keys >> clique em new SSH key
+
+
+vai no aplicativo git bash e execute os comandos
+
+ssh-keygen -t ed25519 -C wesley_perrotte@yahoo.com.br
+
+Abra a pasta onde foi salvo e copie a chave
+
+Vai no site do github e cole a chave no Key
+
+e clique em adicionar
+
+Volte no git bash e digite eval $(ssh-agent -s)
+
+execute o comando ls
+
+execute o comndo ssh-add id_ed25519 ( nome da chave privada)
+
+caso queria clonar algo: utilize o SSH e abra o git Bash
+e digite o comando 
+
+git clone e o ssh do clone
+
+-----------------------
+
+
+Criando token 
+
+no site vai em Developer settings
+>> Personal acess tokens >> generate new token
+
+Escolha quando vai expirar 
+Marque a opção repo
+
+clique em Generate token
+
